@@ -3,5 +3,4 @@ buildCommand = "npm install --prefix server && npm install --prefix client && np
 
 [deploy]
 startCommand = "npm start --prefix server"
-healthcheckPath = "/api/auth/health"
 restartPolicyType = "on_failure"
